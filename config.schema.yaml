@@ -1,0 +1,14 @@
+---
+default_application:
+  description: "Default application to query if not specified by action"
+  type: "string"
+  required: false
+  secret: false
+  
+applications:
+  description: "Applications and API Keys"
+  type: "object"
+  required: false
+  items:
+    type: "string"
+    required: true
