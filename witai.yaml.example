@@ -1,0 +1,5 @@
+---
+applications:
+  steve: XXXXXX
+  sammy: XXXXXX
+default_application: ""
